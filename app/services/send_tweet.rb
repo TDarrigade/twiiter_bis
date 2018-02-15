@@ -1,5 +1,3 @@
-
-
 class SendTweet
 require 'dotenv-rails'
 require 'twitter'

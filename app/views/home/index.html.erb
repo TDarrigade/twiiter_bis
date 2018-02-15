@@ -1,0 +1,7 @@
+<h1>tweeter quelque chose</h1>
+
+
+<%= form_tag("/tweet") do %>
+<%= text_field_tag(:tweet) %>
+ <%= submit_tag("Poster un tweet") %>
+<% end %>
